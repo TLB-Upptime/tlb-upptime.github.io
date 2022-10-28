@@ -1,3 +1,6 @@
+status-website:
+  theme: light
+
 # Change these first
 owner: TLB-Upptime # Your GitHub organization or username, where this repository lives
 repo: tlb-upptime.github.io # The name of this repository
