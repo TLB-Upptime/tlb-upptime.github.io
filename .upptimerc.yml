@@ -17,7 +17,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: https://tlb-upptime.github.io/
+  # cname: "tlb-upptime.github.io"
   # baseUrl: /tlb-upptime.github.io
   logoUrl: https://timeline-bookstore.wdfiles.com/local--files/component%3Atheme/logo-for-tlb-black.png
   name: TLB-Upptime
