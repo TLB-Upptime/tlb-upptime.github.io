@@ -1,26 +1,27 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: TLB-Upptime # Your GitHub organization or username, where this repository lives
+repo: tlb-upptime.github.io # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Wikidot
+    url: https://www.wikidot.com
+  - name: 时间轴书店
+    url: https://timeline-bookstore.wikidot.com
+  - name: 时间轴书店沙盒
+    url: http://tlb-sandbox.wikidot.com
+  - name: 时间轴书店文件储存室
+    url: http://tlb-files.wikidot.com
+  - name: 时间轴书店后台
+    url: http://tlb-command.wikidot.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /tlb-upptime.github.io
+  logoUrl: https://timeline-bookstore.wdfiles.com/local--files/component%3Atheme/logo-for-tlb-black.png
+  name: TLB-Upptime
+  introTitle: "TLB和相关网站正常运行的监视器工具站。"
+  introMessage: 
   navbar:
     - title: Status
       href: /
@@ -29,3 +30,86 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+commitMessages:
+  commitAuthorName: "FixStatus"
+  commitAuthorEmail: "github-actions[bot]@users.noreply.github.com"
+
+# https://github.com/yamagami2211/site-kanshi/blob/master/i18n.yml
+i18n:
+  activeIncidents: "活动事件"
+  incidentReport: "事件报告 #$NUMBER→"
+  activeIncidentSummary: "$DATE 打开的帖子数 $POSTS"
+  incidentTitle: "了解有关事件 #$NUMBER 的详细信息"
+  incidentDetails: "インシデントの詳細"
+  incidentFixed: "修正"
+  incidentOngoing: "进行中"
+  incidentOpenedAt: "开放"
+  incidentClosedAt: "关闭"
+  incidentSubscribe: "订阅更新"
+  incidentViewOnGitHub: "在GitHub中查看"
+  incidentCommentSummary: "投稿日期$DATE 投稿者 $AUTHOR"
+  incidentBack: "返回的所有事件"
+  pastIncidents: "过去的事件"
+  pastIncidentsResolved: "$MINUTES 分钟内解决的帖子数 $POSTS"
+  liveStatus: "当前状态"
+  overallUptime: "总运行率：$UPTIME"
+  overallUptimeTitle: "总体利用率"
+  averageResponseTime: "平均响应时间：$TIMEms"
+  averageResponseTimeTitle: "平均响应时间"
+  sevelDayResponseTime: "7天响应时间"
+  loading: "读取"
+  navGitHub: "GitHub"
+  footer: "此页是开源的（$REPO），使用 Upptime（https://upptime.js.org）。"
+  rateLimitExceededTitle: "已超出速率限制"
+  rateLimitExceededIntro: "由于您已超过每小时可以发出的请求数，因此您必须等待才能再次访问此网站。或者，您可以添加 GitHub 个人访问令牌以继续使用本网站。"
+  rateLimitExceededWhatDoesErrorMean: "此错误是什么意思？"
+  rateLimitExceedErrorMeaning: "本网站使用 GitHub API 访问有关网站状态的实时数据。默认情况下，GitHub 每小时允许 60 个请求到每个 IP 地址。"
+  rateLimitExceededErrorHowCanFix: "我怎样才能修复它？"
+  rateLimitExceedErrorFix: "再等一个小时，IP 地址限制就会恢复。或者，您也可以添加 GitHub 个人访问令牌，每小时添加 5，000 个请求。"
+  速率限制接受生成PAT: "了解如何生成个人访问令牌"
+  rateLimitExceedEdHasSet: "有个人访问令牌集。"
+  rateLimitExceededRemoveToken: "删除令牌"
+  rateLimitExceededGitHubPAT: "GitHub个人访问令牌"
+  rateLimitExceededCopyPastePAT: "复制并粘贴令牌"
+  rateLimitExceededSaveToken: "保存令牌"
+  errorTitle: "发生错误"
+  errorIntro: "尝试获取最新状态详细信息时出错。"
+  errorText: "请稍等片刻，然后重试。"
+  errorHome: "转到主页"
+  pastScheduledMaintenance: 过去的定期维护
+  scheduledMaintenance: 定期维护
+  scheduledMaintenanceSummaryStarted: $DATA $DURATION分钟
+  scheduledMaintenanceSummaryStarts: $DATA $DURATION分
+  startedAt: 开始时间
+  startsAt: 开始
+  duration: 期限
+  durationMin: $DURATION 分
+  incidentCompleted: 完成
+  incidentScheduled: 预约
+  url: "URL"
+  status: "状态"
+  history: "历史"
+  uptime: "工作时间"
+  up: "🟩 正常"
+  degraded: "🟨 低下"
+  down: "🟥 停止"
+  responseTimeGraphAlt: "応答時間グラフ"
+  ms: "毫秒"
+  responseTime: "响应时间"
+  responseTimeDay: "24小时响应时间"
+  responseTimeWeek: "7天响应时间"
+  responseTimeMonth: "30天响应时间"
+  responseTimeYear: "1年响应时间"
+  uptimeDay: "24小时运行时间"
+  uptimeWeek: "7天的运行时间"
+  uptimeMonth: "30天运行时间"
+  uptimeYear: "1年运行时间"
+  liveStatusHtmlComment: "<!--live status-->"
+  allSystemsOperational: "🟩 所有系统都正常运行"
+  degradedPerformance: "🟨 系统运行性能下降"
+  completeOutage: "🟥 运行完全停止"
+  partialOutage: "🟧 运行部分停止"
+
+workflowSchedule:
+  responseTime: "0 */6 * * *"
