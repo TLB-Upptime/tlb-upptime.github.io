@@ -41,7 +41,7 @@ i18n:
   incidentReport: "事件报告 #$NUMBER→"
   activeIncidentSummary: "$DATE 打开的帖子数 $POSTS"
   incidentTitle: "了解有关事件 #$NUMBER 的详细信息"
-  incidentDetails: "インシデントの詳細"
+  incidentDetails: "事件详细信息"
   incidentFixed: "修正"
   incidentOngoing: "进行中"
   incidentOpenedAt: "开放"
@@ -67,7 +67,7 @@ i18n:
   rateLimitExceedErrorMeaning: "本网站使用 GitHub API 访问有关网站状态的实时数据。默认情况下，GitHub 每小时允许 60 个请求到每个 IP 地址。"
   rateLimitExceededErrorHowCanFix: "我怎样才能修复它？"
   rateLimitExceedErrorFix: "再等一个小时，IP 地址限制就会恢复。或者，您也可以添加 GitHub 个人访问令牌，每小时添加 5，000 个请求。"
-  速率限制接受生成PAT: "了解如何生成个人访问令牌"
+  rateLimitExceededGeneratePAT: "了解如何生成个人访问令牌"
   rateLimitExceedEdHasSet: "有个人访问令牌集。"
   rateLimitExceededRemoveToken: "删除令牌"
   rateLimitExceededGitHubPAT: "GitHub个人访问令牌"
@@ -80,7 +80,7 @@ i18n:
   pastScheduledMaintenance: 过去的定期维护
   scheduledMaintenance: 定期维护
   scheduledMaintenanceSummaryStarted: $DATA $DURATION分钟
-  scheduledMaintenanceSummaryStarts: $DATA $DURATION分
+  scheduledMaintenanceSummaryStarts: $DATA $DURATION分钟
   startedAt: 开始时间
   startsAt: 开始
   duration: 期限
@@ -94,7 +94,7 @@ i18n:
   up: "🟩 正常"
   degraded: "🟨 低下"
   down: "🟥 停止"
-  responseTimeGraphAlt: "応答時間グラフ"
+  responseTimeGraphAlt: "响应时间图表"
   ms: "毫秒"
   responseTime: "响应时间"
   responseTimeDay: "24小时响应时间"
